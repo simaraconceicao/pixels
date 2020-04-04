@@ -1,1 +1,0 @@
-# sd-0x-block5-project-pixels-art-tests

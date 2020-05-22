@@ -63,7 +63,7 @@ chai.use(isHorizontallyAlignedWith)
 const isBelowOf = (_chai, utils) => {
   function assertIsBelowOf(element) {
     this.assert(
-      cy.$$(this._obj).offset().top > cy.$$(element).offset().top + cy.$$(element).height(),
+      cy.$$(this._obj).offset().top >= cy.$$(element).offset().top + cy.$$(element).height(),
       'expected #{this} to be below of #{act}',
       'expected #{this} not to be below of #{act}',
       this._obj,

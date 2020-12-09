@@ -1,0 +1,45 @@
+.color{
+    border: black solid 1px;
+    margin-left: 2px;
+    height: 25px;
+    width: 25px;
+
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+#color-palette{
+    display: flex;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    
+}
+
+.pixel{
+    height: 40px;
+    width: 40px;
+}
+
+#pixel-board{
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    width: 210px;
+}
+}
+
